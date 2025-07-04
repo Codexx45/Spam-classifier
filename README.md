@@ -40,20 +40,8 @@ The app loads a pre-trained machine learning model (`spam_classifier.pkl`) and a
 ```bash
 git clone https://github.com/yourusername/sms-spam-classifier.git
 cd sms-spam-classifier
-2. Set Up a Virtual Environment (Recommended)
-bash
-Copy
-Edit
 python -m venv .venv
 .\.venv\Scripts\activate    # Windows
 # or: source .venv/bin/activate  # macOS/Linux
-3. Install Dependencies
-bash
-Copy
-Edit
 pip install -r requirements.txt
-4. Launch the App
-bash
-Copy
-Edit
 streamlit run App.py
